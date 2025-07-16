@@ -227,3 +227,73 @@ main section img{
         margin-top: 25px;
     }
 }
+/* FORM STYLING */
+form {
+  max-width: 500px;
+  margin: 1em auto;
+  padding: 1em;
+  border: 1px solid #ccc;
+  border-radius: 1em;
+  background: #f9f9f9;
+}
+
+form div + div {
+  margin-top: 1em;
+}
+
+label {
+  display: inline-block;
+  width: 90px;
+  text-align: right;
+  margin-right: 1em;
+}
+
+input, textarea {
+  font: 1em sans-serif;
+  width: 300px;
+  box-sizing: border-box;
+  border: 1px solid #999;
+}
+
+input:focus, textarea:focus {
+  border-color: #000;
+}
+
+textarea {
+  vertical-align: top;
+  height: 5em;
+}
+
+button {
+  margin-left: 94px;
+  padding: 0.7em;
+  border-radius: 0.5em;
+  border: none;
+  background: #007acc;
+  color: white;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+button:hover {
+  background: #005fa3;
+}
+
+/* FEEDBACK BOX */
+#feedback {
+  background-color: antiquewhite;
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  padding: 0.5em;
+  display: none;
+  font-weight: bold;
+  text-align: center;
+  z-index: 1000;
+}
+
+/* Move content down when feedback is visible */
+.moveDown {
+  margin-top: 3em;
+}
