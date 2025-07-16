@@ -1,0 +1,136 @@
+/* Basic Reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* General Body */
+body {
+  font-family: 'Segoe UI', sans-serif;
+  color: #333;
+  background-color: #fefefe;
+  line-height: 1.6;
+}
+
+/* Header Navigation */
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #f5f5f5;
+  padding: 15px 30px;
+  border-bottom: 1px solid #ccc;
+}
+
+.nav-left a {
+  margin-right: 20px;
+  text-decoration: none;
+  color: #333;
+  font-weight: bold;
+}
+
+.nav-left a.active {
+  color: #ff4d4d;
+}
+
+.nav-title {
+  font-size: 1.5rem;
+  font-weight: bold;
+  text-align: center;
+  flex-grow: 1;
+}
+
+.nav-logo img {
+  height: 40px;
+  width: auto;
+}
+
+/* Main Content */
+.main-content {
+  padding: 30px;
+}
+
+/* Welcome Section */
+.welcome {
+  margin-bottom: 30px;
+  text-align: center;
+}
+
+/* About Me and Gallery layout */
+.about-gallery-wrapper {
+  display: flex;
+  justify-content: space-between;
+  gap: 20px;
+  flex-wrap: wrap;
+}
+
+/* About Me */
+.about-me {
+  display: flex;
+  flex-direction: column;
+  max-width: 60%;
+}
+
+.about-me img.about-image {
+  max-width: 300px;
+  height: auto;
+  margin-bottom: 15px;
+  border-radius: 10px;
+}
+
+.about-text h2 {
+  margin-bottom: 10px;
+}
+
+/* Right Gallery */
+.gallery {
+  max-width: 30%;
+  overflow-y: auto;
+}
+
+.gallery h3 {
+  text-align: center;
+  margin-bottom: 10px;
+}
+
+.gallery-scroll {
+  max-height: 400px;
+  overflow-y: scroll;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.gallery-scroll img {
+  width: 100%;
+  height: auto;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+/* Blog/Updates */
+.blog-updates {
+  margin-top: 40px;
+  padding: 20px;
+  background-color: #fafafa;
+  border-top: 2px solid #ccc;
+  border-bottom: 2px solid #ccc;
+}
+
+/* Footer */
+footer {
+  text-align: center;
+  padding: 20px;
+  background-color: #f5f5f5;
+  border-top: 1px solid #ccc;
+  margin-top: 30px;
+}
+
+footer a {
+  display: block;
+  margin-top: 10px;
+  color: #0073e6;
+  text-decoration: none;
+}
+
