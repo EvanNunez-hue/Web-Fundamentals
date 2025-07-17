@@ -4,19 +4,21 @@
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
   <title>Evans Blog</title>
-  <link rel="stylesheet" href="style.css" />
+  <link rel="stylesheet" href="styles/style.css" />
 </head>
 <body>
   <header class="top-bar">
-    <div class="nav-left">
-      <a href="index.html" class="active">Home</a>
-      <a href="resume.html">Resume</a>
-      <a href="achievements.html">Achievements</a>
-      <a href="#contact">Contact</a>
-    </div>
-    <div class="nav-title">Evans Blog</div>
-    <div class="nav-logo">
-      <img src="images/logo.png" alt="Logo" />
+    <div class="nav-grid">
+      <div class="nav-left">
+        <a href="index.html" class="active">Home</a>
+        <a href="resume.html">Resume</a>
+        <a href="achievements.html">Achievements</a>
+        <a href="#contact">Contact</a>
+      </div>
+      <div class="nav-title">Evans Blog</div>
+      <div class="nav-logo">
+        <img src="images/logo.png" alt="Logo" />
+      </div>
     </div>
   </header>
 
@@ -25,13 +27,40 @@
       <h1>Welcome to My Blog!</h1>
     </section>
 
-    <section class="content-body">
-      <div class="about-me">
+    <div class="main-content">
+      <div class="about-section">
         <img src="images/me.jpg" alt="Evan's photo" class="about-image" />
         <div class="about-text">
           <h2>About Me</h2>
           <p>Hello! I’m Evan. I built this blog to share updates on life, learning, creativity, and everything in between. Thanks for visiting!</p>
         </div>
+      </div>
+
+      <aside class="gallery">
+        <h3>Gallery</h3>
+        <div class="gallery-scroll">
+          <img src="images/gallery1.jpg" alt="Gallery Image 1" />
+          <img src="images/gallery2.jpg" alt="Gallery Image 2" />
+          <img src="images/gallery3.jpg" alt="Gallery Image 3" />
+        </div>
+      </aside>
+    </div>
+
+    <section class="blog-box">
+      <h2>Daily Blog / Updates</h2>
+      <div class="blog-content">
+        <p><strong>July 16, 2025:</strong> Just launched my new personal blog site today! Looking forward to updating it daily with thoughts, stories, and cool moments.</p>
+        <!-- Add more updates as you go -->
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <p>&copy; 2025 Evan Nunez</p>
+    <a href="site-plan.html" target="_blank">View Site Plan</a>
+  </footer>
+</body>
+</html>
 
 
 
