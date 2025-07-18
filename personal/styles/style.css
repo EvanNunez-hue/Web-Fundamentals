@@ -197,10 +197,11 @@ footer a {
   gap: 10px;
   font-size: 1.1rem;
 }
-
 .contact-list img {
   height: 24px;
   width: 24px;
+  object-fit: contain;
+  display: inline-block;
 }
 .contact-list img {
   height: 24px;
