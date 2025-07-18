@@ -163,6 +163,45 @@ footer a {
   text-decoration: none;
   color: #0073e6;
 }
+/* ✅ Resume Update Box */
+.resume-update-box {
+  margin-top: 40px;
+}
+
+.resume-update-box h2 {
+  margin-bottom: 10px;
+}
+
+.update-content {
+  background-color: #f0f9ff;
+  border: 2px solid #99caff;
+  padding: 15px;
+  border-radius: 10px;
+  font-family: 'Courier New', monospace;
+  text-align: center;
+  box-shadow: 0 0 5px rgba(0,0,0,0.05);
+}
+/* ✅ Contact Page Icons */
+.contact-list {
+  list-style: none;
+  padding: 0;
+  margin-top: 20px;
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.contact-list li {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  font-size: 1.1rem;
+}
+
+.contact-list img {
+  height: 24px;
+  width: 24px;
+}
 
 
 
