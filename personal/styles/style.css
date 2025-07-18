@@ -189,26 +189,27 @@ footer a {
   display: flex;
   flex-direction: column;
   gap: 15px;
+  max-width: 400px;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .contact-list li {
   display: flex;
   align-items: center;
-  gap: 10px;
+  gap: 12px;
   font-size: 1.1rem;
+  color: #333;
 }
+
 .contact-list img {
   height: 24px;
   width: 24px;
   object-fit: contain;
   display: inline-block;
-}
-.contact-list img {
-  height: 24px;
-  width: 24px;
-  object-fit: contain;
   border-radius: 4px;
 }
+
 
 
 
